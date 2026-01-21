@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job portal</title>
+    <style>
+    body {
+        background-color: rgb(226, 230, 230);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background-color: #1e3a5f;   
+        color: white;
+        padding: 15px 30px;
+    }
+
+    footer {
+        background-color: #1e3a5f;   
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .cont {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #1e3a5f;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    nav a:hover {
+        color: #0d1f33;
+    }
+
+    section {
+        background-color: white; 
+    }
+    .jobs-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.job-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.job-card p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.job-card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.cont2{
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+</style>
+
+</head>
+<body>
+  <header>
+    <nav>
+    <div class="cont">
+        <img src="https://thumbs.dreamstime.com/b/job-recruitment-logo-vector-global-abstract-businessman-graphic-design-isolated-white-job-recruitment-logo-vector-global-165802178.jpg" 
+             alt="logo" height="90px" width="90px">
+        <h1>Berozgaar Sathal</h1>
+    </div>
+    <p>Find Your Dream Job</p>
+    </nav>
+</header>
+    <hr>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Jobs</a> |
+        <a href="#">Companies</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <section>
+        <br>
+    <h2 style="padding-left:20px;">Available Jobs</h2>
+
+    <div class="jobs-container">
+
+        <div class="job-card">
+            <h3>Software Developer</h3>
+            <p><b>Company:</b> Google</p>
+            <p><b>Location:</b> Bangalore</p>
+            <p><b>Experience:</b> 0–2 years</p>
+            <button>Apply</button>
+        </div>
+
+        <div class="job-card">
+            <h3>Web Designer</h3>
+            <p><b>Company:</b> Microsoft</p>
+            <p><b>Location:</b> Delhi</p>
+            <p><b>Experience:</b> 1–3 years</p>
+            <button>Apply</button>
+        </div>
+
+        <div class="job-card">
+            <h3>Data Analyst</h3>
+            <p><b>Company:</b> Amazon</p>
+            <p><b>Location:</b> Mumbai</p>
+            <p><b>Experience:</b> Fresher</p>
+            <button>Apply</button>
+        </div>
+
+    </div>
+</section>
+    <hr>
+    <section class="cont2">
+        <h2>Apply for a Job</h2>
+
+        <form>
+            <label>Full Name:</label><br>
+            <input type="text"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email"><br><br>
+
+            <label>Phone Number:</label><br>
+            <input type="text"><br><br>
+
+            <label>Select Job:</label><br>
+            <select>
+                <option>Software Developer</option>
+                <option>Web Designer</option>
+                <option>Data Analyst</option>
+            </select><br><br>
+
+            <input type="submit" value="Apply">
+        </form>
+        
+    </section>
+
+    <hr>
+    <footer>
+        <p>© 2026 Online Job Portal</p>
+        <p>Contact: jobportal@gmail.com</p>
+    </footer>
+
+</body>
+</html>
