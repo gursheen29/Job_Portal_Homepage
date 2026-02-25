@@ -1,0 +1,81 @@
+
+    body {
+        background-color: rgb(226, 230, 230);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        background-color: #1e3a5f;   
+        color: white;
+        padding: 15px 30px;
+    }
+
+    footer {
+        background-color: #1e3a5f;   
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .cont {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #1e3a5f;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    nav a:hover {
+        color: #0d1f33;
+    }
+
+    section {
+        background-color: white; 
+    }
+    .jobs-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.job-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.job-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.job-card p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.job-card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.cont2{
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+

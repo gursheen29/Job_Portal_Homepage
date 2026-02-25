@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job portal</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    
+
+  <header>
+    <nav>
+    <div class="cont">
+        <img src="https://thumbs.dreamstime.com/b/job-recruitment-logo-vector-global-abstract-businessman-graphic-design-isolated-white-job-recruitment-logo-vector-global-165802178.jpg" 
+             alt="logo" height="90px" width="90px">
+        <h1>JobFinder</h1>
+    </div>
+    <p>Find Your Dream Job</p>
+    </nav>
+</header>
+    <hr>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Jobs</a> |
+        <a href="#">Companies</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <section>
+        <br>
+    <h2 style="padding-left:20px;">Available Jobs</h2>
+    <input type="text" id="searchInput" placeholder="Search jobs..." style="margin-left:20px; padding:8px;">
+    <div class="jobs-container" id="jobsContainer">
+
+        <div class="job-card">
+            <h3>Software Developer</h3>
+            <p><b>Company:</b> Google</p>
+            <p><b>Location:</b> Bangalore</p>
+            <p><b>Experience:</b> 0–2 years</p>
+            <button>Apply</button>
+        </div>
+
+        <div class="job-card">
+            <h3>Web Designer</h3>
+            <p><b>Company:</b> Microsoft</p>
+            <p><b>Location:</b> Delhi</p>
+            <p><b>Experience:</b> 1–3 years</p>
+            <button>Apply</button>
+        </div>
+
+        <div class="job-card">
+            <h3>Data Analyst</h3>
+            <p><b>Company:</b> Amazon</p>
+            <p><b>Location:</b> Mumbai</p>
+            <p><b>Experience:</b> Fresher</p>
+            <button>Apply</button>
+        </div>
+
+    </div>
+</section>
+    <hr>
+    <section class="cont2">
+        <h2>Apply for a Job</h2>
+
+        <section class="cont2">
+    <h2>Post a Job</h2>
+
+    <form id="jobForm">
+    <input type="text" id="title" placeholder="Job Title" required><br><br>
+    <input type="text" id="company" placeholder="Company Name" required><br><br>
+    <input type="text" id="location" placeholder="Location" required><br><br>
+    <textarea id="description" placeholder="Job Description" required></textarea><br><br>
+    <button type="submit">Post Job</button>
+</form>
+
+
+</section>
+
+    </section>
+
+    <hr>
+    <footer>
+        <p>© 2026 Online Job Portal</p>
+        <p>Contact: jobportal@gmail.com</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
